@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Fashion | home page</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="icon" href="../pictures/logooo.png">
+    <link rel="stylesheet" href="../fontawesome-free-5.15.4-web/css/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="../css/bootstrap.css"> -->
+    <link rel="stylesheet" href="../css/general.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+  <!-- HOME PAGE NAVBAR -->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" id="navBar">
+    <div class="container-fluid navContainer">
+      <a class="navbar-brand navBarBrand" href="#carouselExampleCaptions"><img src="../pictures/logooo.png" alt="..." class="siteLogo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
+          <li class="nav-item navLinkCover">
+            <a class="nav-link navLinkItem active" aria-current="page" href="#carouselExampleCaptions"><span class="fab fa-shirtsinbulk"></span> Home</a>
+          </li>
+          <li class="nav-item navLinkCover">
+            <a class="nav-link navLinkItem" href="./introduction.html">Introduction</a>
+          </li>
+          <li class="nav-item navLinkCover">
+            <a class="nav-link navLinkItem" href="./productinfo.html">Products</a>
+          </li>
+          <li class="nav-item navLinkCover dropdown">
+            <a class="nav-link navLinkItem dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Brands
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="https://www.adidas.com/us" target="_blank">ADIDAS</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="https://www.fendi.com/ii-en/" target="_blank">FENDI</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="https://www.dior.com/en_int" target="_blank">DIOR</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="https://www.nike.com/za/" target="_blank">NIKE</a></li>
+            </ul>
+          </li>
+          <li class="nav-item navLinkCover">
+            <a class="nav-link navLinkItem" href="./contactus.html">Contact Us</a>
+          </li>
+        </ul>
+        <!-- <form class="d-flex navSearchCover">
+          <input class="form-control navSearch" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn navSearchBtn" type="submit"><span class="fas fa-search pe-1"></span></button>
+        </form> -->
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- HOME PAGE CAROUSEL -->
+
+  <div id="carouselExampleCaptions" class="carousel slide topcarousel" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <!-- <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button> -->
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://images.unsplash.com/photo-1601935033900-059813f9abfc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" class="img d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="carText">Versatile and Sustainable</h5>
+          <p class="carSubText">Fit into a whole new world of extraordinary experiences</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://images.unsplash.com/photo-1566513939810-67f581aa82f3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" class="img d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="carText">Let us amaze you</h5>
+          <p class="carSubText">Slide through our exquisite shirts and those of other brands</p>
+        </div>
+      </div>
+      <!-- <div class="carousel-item">
+        <img src="https://images.unsplash.com/photo-1484516396415-4971641de8e0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1331&q=80" class="img d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div> -->
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- TEXT OF "OUR NEWEST ARRIVAL" -->
+
+  <!-- <hr style="width: 90%; height: 2px; margin: auto;"> -->
+
+  <div class="container-fluid newArrivalTextContainer">
+    <h1 class="pt-4 ms-1 newArrivalText">Just In</h1>
+    <hr style="width: 5%; height: 6px; border-radius: 5px; margin-left: 0.5vw;">
+  </div>
+
+
+  <!-- PICTURES OF THE NEWLY ARRIVED PRODUCTS -->
+
+  <div class="container-fluid newProductContainer">
+
+    <div class="newProductCover row g-2">
+      <div class="col-4 col-md-4 col-sm-4">
+        <div class="card sidePicCover" style="width: 100%;">
+          <img src="https://images.unsplash.com/photo-1576566588028-4147f3842f27?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80" class="card-img-top sidePicSize" alt="...">
+          <div class="card-body">
+            <h5 class="card-title productName">KNKN Original</h5>
+            <span class="fas fa-star"></span>
+            <span class="fas fa-star"></span>
+            <span class="fas fa-star"></span>
+            <span class="fas fa-star"></span>
+            <span class="fas fa-star-half-alt"></span>
+            <a href="./productinfo.html#newProductSection" class="btn btn-primary sideCardBtn">See More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-8 col-sm-8 col-8 fillerImgCover">
+        <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" class="img-fluid" id="fillerImg" alt="...">
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- PICTURES ON SHORT SLEEVE SHIRTS AND LONG SLEEVE SHIRTS -->
+
+  <div class="container sleeveCardsContainer">
+
+    <div class="row g-5">
+      <div class="col">
+        <div class="card sleeveCard" style="width: 100%;">
+          <img src="https://media.istockphoto.com/photos/long-sleeve-blank-white-tee-shirt-isolated-on-white-picture-id172414211?k=20&m=172414211&s=612x612&w=0&h=OF29BTcS71w4gWGno8CZCzfy45fD4qUu0GC5r09sElA=" class="card-img-top sleeveImg" alt="...">
+          <div class="card-body">
+            <!-- <h5 class="card-title">Card title</h5> -->
+            <a href="./productinfo.html#longSleevesSection" class="btn btn-primary sleeveBtn">See More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card sleeveCard" style="width: 100%;">
+          <img src="https://media.istockphoto.com/photos/blank-white-tshirt-front-with-clipping-path-picture-id482949611?k=20&m=482949611&s=612x612&w=0&h=B-xqZHjEldTEXGSF8TAND-Hc_H2sz9WHYjpT8zkHgXQ=" class="card-img-top sleeveImg" alt="...">
+          <div class="card-body">
+            <!-- <h5 class="card-title">Card title</h5> -->
+            <a href="./productinfo.html#shortSleevesSection" class="btn btn-primary sleeveBtn">See More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- PRODUCT MOST BOUGHT/ PRODUCT ON PROMO -->
+
+  <div class="container-fluid" id="fillerImg2Container">
+    <div class="backdrop">
+      <p class="fillerImg2Text">50 Years of Moving the World Forward Through Sport.</p>
+      <p class="fillerImg2Text">Designing the revolutionary!</p>
+      <a href="https://www.nike.com/za/" target="_blank"><button class="fillerImg2Btn">Shop NIKE</button></a>
+    </div>
+  </div>
+
+
+  <!-- PAGE'S SIDE BUTTON FOR RETURNING TO TOP -->
+
+  <a href="#carouselExampleCaptions" alt="...">
+    <div class="pageSideBtn rounded-circle sticky-top">
+      <div><span class="fas fa-arrow-up" id="pageSideBtnArrow"></span></div>
+    </div>
+  </a>
+
+
+  <!-- PICTURE ROWS OF OUR BEST PRODUCTS -->
+
+  <!-- <hr style="width: 90%; height: 2px; margin: auto;"> -->
+
+  <div data-aos="fade-up" data-aos-duration="9000" data-aos-delay="150" class="container productRowsContainer">
+
+    <h1 class="productRowsTitle">Products on Display</h1>
+    <hr style="width: 15%; height: 6px; border-radius: 5px; margin-left: 0vw; margin-bottom: 4vh;">
+
+    <div class="row row-cols-1 row-cols-sm-3 row-cols-md-3">
+      <div class="col">
+        <div class="card productCard" style="width: 100%;">
+          <img src="https://media.istockphoto.com/photos/blue-shirt-picture-id501366994?k=20&m=501366994&s=612x612&w=0&h=GfdoHY7r4MM4wzCUBph25kCfWFPdG8t14O7YjsaWy9M=" class="card-img-top productRowImg" alt="...">
+          <div class="card-body">
+            <h5 class="card-title newProductName">Woven Blue</h5>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-half"></span>
+            <span class="bi bi-star"></span>
+            <a href="./productinfo.html#wovenBlue" class="btn btn-primary productCardBtn">See More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card productCard" style="width: 100%;">
+          <img src="https://media.istockphoto.com/photos/long-sleeve-wrinkled-purple-shirt-picture-id174875898?k=20&m=174875898&s=612x612&w=0&h=jAhEhuFpjJZ-QyEsHmHFgJXKZIsb-yRvYDNXz0wVxZQ=" class="card-img-top productRowImg" alt="...">
+          <div class="card-body">
+            <h5 class="card-title newProductName">Woven Purple</h5>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star"></span>
+            <a href="./productinfo.html#wovenPurple" class="btn btn-primary productCardBtn">See More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card productCard" style="width: 100%;">
+          <img src="https://media.istockphoto.com/photos/long-sleeve-blank-black-tee-shirt-isolated-on-white-picture-id172425631?k=20&m=172425631&s=612x612&w=0&h=U0TvZfdM-tvnb4xfU8bGImg7syp3bjUMmsFM-9E_AMo=" class="card-img-top productRowImg" alt="...">
+          <div class="card-body">
+            <h5 class="card-title newProductName">Blank Black</h5>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-half"></span>
+            <a href="./productinfo.html#blankBlack" class="btn btn-primary productCardBtn">See More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row row-cols-1 row-cols-sm-3 row-cols-md-3 mt-4">
+      <div class="col">
+        <div class="card productCard" style="width: 100%;">
+          <img src="https://media.istockphoto.com/photos/plain-red-tee-shirt-isolated-on-white-background-picture-id471188329?k=20&m=471188329&s=612x612&w=0&h=NowWqlCvN1jm7JbqxeQPke0WJHd0LbPI2qFKWlr_F20=" class="card-img-top productRowImg" alt="...">
+          <div class="card-body">
+            <h5 class="card-title newProductName">Blank Red</h5>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star"></span>
+            <span class="bi bi-star"></span>   
+            <a href="./productinfo.html#blankRed" class="btn btn-primary productCardBtn">See More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card productCard" style="width: 100%;">
+          <img src="https://media.istockphoto.com/photos/blank-black-tshirt-front-with-clipping-path-picture-id483425141?k=20&m=483425141&s=612x612&w=0&h=L3nzMZItJ2SWuDFZBgrMoC7s4Ze8ETi-cjTI3-jL_Ls=" class="card-img-top productRowImg" alt="...">
+          <div class="card-body">
+            <h5 class="card-title newProductName">Blank Black Short</h5>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star"></span>
+            <a href="./productinfo.html#blankBlackShort" class="btn btn-primary productCardBtn">See More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card productCard" style="width: 100%;">
+          <img src="https://media.istockphoto.com/photos/front-of-an-unfolded-blank-gray-tshirt-on-white-background-picture-id471184775?k=20&m=471184775&s=612x612&w=0&h=dBlX-PRA3SYuqtJ2ySnR9aXorWUKNzdPSl8ejHHl36U=" class="card-img-top productRowImg" alt="...">
+          <div class="card-body">
+            <h5 class="card-title newProductName">Blank Ash</h5>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-half"></span>
+            <a href="./productinfo.html#blankAsh" class="btn btn-primary productCardBtn">See More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row row-cols-1 row-cols-sm-3 row-cols-md-3 mt-4">
+      <div class="col">
+        <div class="card productCard" style="width: 100%;">
+          <img src="https://media.istockphoto.com/photos/black-tshirt-on-white-background-picture-id182151350?k=20&m=182151350&s=612x612&w=0&h=bXDps-4TJuxqvaVPbv1-VZS_mmZPeQJCteT9lAZFr4Q=" class="card-img-top productRowImg" alt="...">
+          <div class="card-body">
+            <h5 class="card-title newProductName">Black T-shirt</h5>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-half"></span>
+            <span class="bi bi-star"></span>
+            <span class="bi bi-star"></span>        <!-- two and half stars  -->
+            <a href="./productinfo.html#blackTshirt" class="btn btn-primary productCardBtn">See More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card productCard" style="width: 100%;">
+          <img src="https://media.istockphoto.com/photos/shirt-picture-id489008034?k=20&m=489008034&s=612x612&w=0&h=dGItlcdq6AsqJbpyJn2RQ6iO9jG-NsUa2pXiWaup_BY=" class="card-img-top productRowImg" alt="...">
+          <div class="card-body">
+            <h5 class="card-title newProductName">Blue Polo</h5>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-fill"></span>
+            <a href="./productinfo.html#bluePolo" class="btn btn-primary productCardBtn">See More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card productCard" style="width: 100%;">
+          <img src="https://media.istockphoto.com/photos/shirt-isolated-picture-id484199210?k=20&m=484199210&s=612x612&w=0&h=DRJbMy3dVMNxeJnHUdTJTLC6_Yd7sWoHyOVVacL7qSI=" class="card-img-top productRowImg" alt="...">
+          <div class="card-body">
+            <h5 class="card-title newProductName">Blue Dotted</h5>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-half"></span>
+            <a href="./productinfo.html#blueDotted" class="btn btn-primary productCardBtn">See More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- <hr style="width: 90%; height: 2px; margin: auto;"> -->
+
+
+  <div class="paralax2"></div>
+
+
+  <!-- TEXT OF "SHOP BY CATEGORY" -->
+
+  <div class="container-fluid" id="shopByCategory">
+    <h1 class="shopByCategory display-1 mt-5 pt-4 text-center">SHOP BY CATEGORY</h1>
+  </div>
+
+
+  <!-- PICTURES OF OUR DIFFERENT BRANDS --> 
+                              
+  <div class="container-fluid brandsRoundPicsContainer">
+
+    <div class="row g-5 mb-4">
+      <div class="col">
+        <a href="https://www.adidas.com/us" target="_blank"><img src="https://images.unsplash.com/photo-1555274175-75f4056dfd05?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8ZmFzaGlvbiUyMGxvZ29zfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top rounded-circle roundPics" alt="..."></a>
+      </div>
+      <div class="col">
+        <a href="https://www.fendi.com/ii-en/" target="_blank"><img src="https://images.unsplash.com/photo-1590874315261-788881621f7a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8ZmFzaGlvbiUyMGxvZ29zfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top rounded-circle roundPics" alt="..."></a>
+      </div>
+      <div class="col">
+        <a href="https://www.dior.com/en_int" target="_blank"><img src="https://images.unsplash.com/photo-1557653038-2eccb2175702?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw5NDEwNjEyfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top rounded-circle roundPics" alt="..."></a>
+      </div>
+      <div class="col">
+        <a href="https://www.nike.com/za/" target="_blank"><img src="https://images.unsplash.com/photo-1558104631-0fa41a8f6c20?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fG5pa2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" class="card-img-top rounded-circle roundPics" alt="..."></a>
+      </div>
+    </div>
+
+    <div class="row g-5">
+      <div class="col">
+        <h1 class="text-center theBrandsText"><a href="https://www.adidas.com/us" target="_blank" class="theBrandsLink">ADIDAS</a></h1>
+      </div>
+      <div class="col">
+        <h1 class="text-center theBrandsText"><a href="https://www.fendi.com/ii-en/" target="_blank" class="theBrandsLink">FENDI</a></h1>
+      </div>
+      <div class="col">
+        <h1 class="text-center theBrandsText"><a href="https://www.dior.com/en_int" target="_blank" class="theBrandsLink">DIOR</a></h1>
+      </div>
+      <div class="col">
+        <h1 class="text-center theBrandsText"><a href="https://www.nike.com/za/" target="_blank" class="theBrandsLink">NIKE</a></h1>
+      </div>
+    </div>
+
+    <div class="row g-5">
+      <div class="col">
+        <h1 class="text-center dailySales">650+ Sales Daily</h1>
+      </div>
+      <div class="col">
+        <h1 class="text-center dailySales">750+ Sales Daily</h1>
+      </div>
+      <div class="col">
+        <h1 class="text-center dailySales">1000+ Sales Daily</h1>
+      </div>
+      <div class="col">
+        <h1 class="text-center dailySales">900+ Sales Daily</h1>
+      </div>
+    </div>
+
+  </div>
+
+  <hr style="width: 95%; height: 2px; margin: auto;">
+
+
+  <!-- IMAGES OF ALL THE GENDERS -->
+
+  <div class="container-fluid genderImgContainer">
+  <h1 class="genderImgTopText">We've got you covered</h1>
+  <hr style="width: 10%; height: 6px; border-radius: 5px; margin-left: 0vw; margin-bottom: 3vh;">
+    <div class="row g-2">
+      <div class="col">
+        <img src="https://media.istockphoto.com/photos/headshot-of-surprised-mature-businessman-picture-id1353389402?k=20&m=1353389402&s=612x612&w=0&h=nwEMhmhUOb5mCaygUM7gI7p55ilvgFMiZVZlry00FCI=" class="card-img-top genderImg" alt="...">
+      </div>
+      <div class="col">
+        <img src="https://media.istockphoto.com/photos/smiling-man-in-a-green-shirt-using-a-digital-tablet-in-the-office-picture-id1312953631?k=20&m=1312953631&s=612x612&w=0&h=uW2AzgJbljLhSr52dcRdoTh0Z2gRBbrUVt3cwzE68pA=" class="card-img-top genderImg" alt="...">
+      </div>
+      <div class="col">
+        <img src="https://images.unsplash.com/photo-1600574691453-499962cc0611?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHN0YW5kaW5nJTIwbWFuJTIwb24lMjBzaGlydHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top genderImg" alt="...">
+      </div>
+      <div class="col">
+        <img src="https://media.istockphoto.com/photos/friendly-handsome-teenager-boy-waving-hand-and-say-hey-hello-greeting-picture-id1351990427?k=20&m=1351990427&s=612x612&w=0&h=pZDKb5bz1jA-UarnR1hZTnJm0xnex4oJtA8O50WScaw=" class="card-img-top genderImg" alt="...">
+      </div>
+      <div class="col">
+        <img src="https://media.istockphoto.com/photos/baby-in-the-crib-picture-id500967660?k=20&m=500967660&s=612x612&w=0&h=9RIEvYv3rZ6WcZn69FUtU3V-5te6g7g84UKTQSTHT9k=" class="card-img-top genderImg" alt="...">
+      </div>
+    </div>
+  </div>
+
+
+  <!-- cCUSTOMER IDEAS LINK SECTION" -->
+  <a href="./contactus.html#locationTextContainer">
+    <div data-aos="fade-up" data-aos-duration="9000" data-aos-delay="500" class="container" id="comingSoonContainer">
+      <p class="comingSoonText">We are open to your new ideas, pour em in...</p>
+    </div>
+  </a>
+
+
+  <!-- NOTICE FOR THE MONTHS MOST SELLING BRAND -->
+
+  <div class="container-fluid mostSellsCardContainer">
+    <div class="backdrop2">
+      <h5 class="fillerImg2Text text-center">DIOR <span class="fas fa-medal"></span></h5>
+      <p class="fillerImg2Text text-center">DIOR had the most sales in the past month, special thanks to all their customers.</p>
+      <a href="https://www.dior.com/en_int" target="_blank"><button class="mostSellBodyBtn">See More of this Brand</button></a>
+    </div>
+  </div>
+
+
+  <!-- ASSURANCE NOTICE -->
+
+  <div class="container assureTextContainer">
+
+    <div class="text-center assureTextBorder">
+      <div class="card-body">
+        <h5 class="card-title assureTextContent">Every choice is the right one when it comes to fashion ...</h5>
+      </div>
+    </div>
+                            
+  </div>
+
+  <!-- <hr style="width: 98%; height: 2px; margin: auto;"> -->
+
+
+  <!-- FOOTER -->
+
+  <div class="container-fluid footerContainer">
+
+    <div class="text-center footerTopText">
+      <hi class="">First Fashion</hi>
+    </div>
+
+    <hr style="width: 64%; height: 2px; margin: auto;">
+
+    <div class="linksContainer">
+      
+      <div class="footerCover">
+        <div class="row">
+          <div class="col">
+            <ul>
+              <li class="footerLinkT">Links</li>
+              <a href="./productinfo.html#newProductSection" class="footerMainLinkers"><li class="footerLink">Just In</li></a>
+              <a href="./introduction.html#aboutUsContainer" class="footerMainLinkers"><li class="footerLink">About Us</li></a>
+              <a href="./contactus.html#locationTextContainer" class="footerMainLinkers"><li class="footerLink">Feedback</li></a>
+              <a href="./productinfo.html#mostBoughtSection" class="footerMainLinkers"><li class="footerLink">Experience</li></a>
+            </ul>
+          </div>
+          <div class="col">
+            <ul>
+              <li class="footerLinkT">Contacts</li>
+              <a href="tel:08063091360" class="footerMainLinkers"><li class="footerLink">08063091360</li></a>
+              <a href="tel:09077393891" class="footerMainLinkers"><li class="footerLink">09077393891</li></a>
+              <a href="tel:07031520147" class="footerMainLinkers"><li class="footerLink">07031520147</li></a>
+              <a href="tel:08037217011" class="footerMainLinkers"><li class="footerLink">08037217011</li></a>
+            </ul>
+          </div>
+          <div class="col">
+            <ul>
+              <li class="footerLinkT">Google</li>
+              <a href="./contactus.html#locationMapContainer" class="footerMainLinkers"><li class="footerLink"> <span class="fas fa-map-marker-alt"></span> Abeokuta, Ogun</li></a>
+              <a href="mailto:sixtusnwaogu@gmail.com" class="footerMainLinkers"><li class="footerLink"> <span class="fas fa-envelope"></span> sixtusnwaogu@gmail.com</li></a>
+              <a href="mailto:sixtusnwaogu@gmail.com" class="footerMainLinkers"><li class="footerLink"> <span class="fas fa-envelope-open"></span> Send Mail</li></a>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+
+
+    <hr style="width: 64%; height: 2px; margin: auto;">
+
+
+
+    <div class="row socialIconsRow">
+
+      <div class="col">
+          <a href="https://web.facebook.com/joseph.sixtus.31" target="_blank"><div class="fab fa-facebook socialIcons"></div></a>
+      </div>
+      <div class="col">
+        <a href="https://twitter.com/NwaoguSixtus" target="_blank"><div class="fab fa-twitter socialIcons"></div></a>
+      </div>
+      <div class="col">
+        <a href="https://wa.link/vih40b"><div class="fab fa-whatsapp socialIcons"></div></a>
+      </div>
+      <div class="col">
+          <a href="https://www.instagram.com/6two_s55/" target="_blank"><div class="fab fa-instagram socialIcons"></div></a>
+      </div>
+
+    </div>
+
+
+
+    <div class="bottomText pb-2">
+      <div class="row text-center g-0">
+        <div class="col">
+          Ogun, Nigeria &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@copyright
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <!-- <script src="../javascript/bootstrap.js"></script> -->
+  <script src="../javascript/index.js"></script>
+
+</body>
+</html>

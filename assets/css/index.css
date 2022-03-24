@@ -1,0 +1,1474 @@
+@import url(./bootstrap.css);
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(0, 0, 255, 0.021);
+}
+
+
+
+
+.siteLogo{
+    height: 7vh;
+    width: 3.5vw;
+    margin-left: 0.2vw;
+}
+
+
+#navbarSupportedContent{
+    margin-left: 15vw;
+}
+
+.navLinkCover{
+    margin-right: 5vw;
+    font-size: 2.3vh;
+    font-weight: 600;
+}
+
+.navBarBrand{
+    transition: 0.3s ease-out;
+}
+
+.navBarBrand:hover{
+    transform: scale(1.02);
+}
+
+.navLinkItem{
+    transition: 0.3s ease-out;
+}
+
+.navLinkItem:hover{
+    transform: scale(1.02);
+}
+
+.fa-shirtsinbulk{
+    font-weight: 600;
+}
+
+.navSearch{
+    width: 8vw;
+    border-radius: 20px 0 0 20px;
+}
+
+.navSearchBtn{
+    border-radius: 0 20px 20px 0;
+    background-color: blue;
+    color: white;
+}
+
+.navSearchBtn:hover{
+    background-color: rgb(2, 2, 216);
+    color: white;
+
+}
+
+
+
+
+
+.topcarousel{
+    margin-bottom: 8vh;
+}
+
+.img{
+    width: 100vw;
+    height: 90vh;
+}
+
+
+
+.carText{
+    font-size: 260%;
+    font-weight: 800;
+}
+
+.carSubText{
+    font-size: 130%;
+    font-weight: 600;
+}
+
+
+
+.newArrivalTextContainer{
+    margin-top: 8vh;
+}
+
+.newArrivalText{
+    line-height: 4vh;
+}
+
+
+
+
+
+
+
+.newProductContainer{
+    margin-top: 3.5vh;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.newProductCover{
+    width: 100%;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+#fillerImg {
+    height: 76vh;
+    width: 70vw;
+    object-fit: cover;
+}
+
+.sidePicCover{
+    transition: 0.3s ease-out;
+    border-radius: 0;
+    background-color: rgb(239, 239, 250);
+}
+
+.sidePicCover:hover{
+    transform: scale(1.02);
+}
+
+.sidePicSize{
+    height: 63.17vh;
+    object-fit: cover;
+    border-radius: 0;
+}
+
+.sideCardBtn{
+    background-color: white;
+    color: black;
+    border: solid 1px;
+    margin-left: 16.7vw;
+    font-size: 110%;
+    font-weight: 500;
+}
+
+
+
+
+.sleeveCardsContainer{
+    margin-top: 8vh;
+    margin-bottom: 10vh;
+    width: 70%;
+}
+
+.sleeveCard{
+    /* border: none; */
+    background-color: rgb(239, 239, 250);
+    height: 75vh;
+    width: 25vw;
+    transition: 0.5s ease;
+    height: 69vh;
+}
+
+.sleeveCard:hover{
+    transform: scale(1.0177);
+    box-shadow: 0px 3px 15px 5px  rgb(163, 163, 163);
+    border: 1px solid rgb(153, 153, 153);
+}
+
+.sleeveImg{
+    height: 60vh;
+    object-fit: cover;
+}
+
+.sleeveBtn{
+    /* padding: 0.5vh; */
+    margin-left: 13vw;
+    background-color: white;
+    color: black;
+    border: solid 1px;
+    font-size: 120%;
+    font-weight: 600;
+}
+
+
+
+
+#fillerImg2Container {
+    padding: 0 !important;
+    background-image: url(https://imageio.forbes.com/specials-images/imageserve/60bf75bd203bcd019feaa3c3/0x0.jpg?format=jpg&width=1200&fit=bounds);
+    height: 80vh;
+    margin-bottom: 0;
+    background-size: cover;
+}
+
+.backdrop {
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    padding-top: 18%;
+    padding-left: 10%;
+    padding-right: 10%;
+    /* background: transparent; */
+    transition: background-color .2s linear;
+}
+
+#fillerImg2Container:hover .backdrop {
+    background-color: rgba(8, 8, 8, .5);
+}
+
+.fillerImg2Text{
+    font-size: 190%;
+    line-height: 4vh;
+    color: white;
+}
+
+.fillerImg2Btn{
+    background-color: blue;
+    color: white;
+    padding: 0.5vh 1vw;
+    border-radius: 3px;
+    font-size: 110%;
+    font-weight: 500;
+    border: none;
+    transition: 0.2s;
+    margin-top: 2vh;
+    transition: 0.3s ease-out;
+}
+
+.fillerImg2Btn:hover{
+    background-color: rgb(4, 4, 207);
+    color: white;
+    border: none;
+}
+
+
+
+
+.pageSideBtn{
+    width: 4vw;
+    height: 7.8vh;
+    padding: 1.8vh 1.15vw;
+    background-color: rgb(1, 1, 124);
+    margin-top: 2vh;
+    top: 80%;
+    left: 95%;
+    z-index: 1000000;
+    box-shadow: -1px 5px 20px 3px rgba(0, 0, 0, 0.486);
+    transition: 0.2s ease-out;
+}
+
+.pageSideBtn:hover{
+    transform: scale(1.02);
+}
+
+#pageSideBtnArrow{
+    color: white;
+    font-size: 4vh;
+    transition: 0.1s linear;
+}
+
+#pageSideBtnArrow:hover{
+    transform: scale(1.02);
+}
+
+
+
+
+
+.productRowsContainer{
+    margin-bottom: 10vh;
+}
+
+.productRowsTitle{
+    line-height: 4vh;
+}
+
+.productCard{
+    /* border: none; */
+    background-color: rgb(239, 239, 250);
+    transition: 0.3s ease-out;
+}
+
+.productCard:hover{
+    transform: scale(1.01);
+    box-shadow: 0px 3px 10px 5px  rgb(163, 163, 163);
+}
+
+.productRowImg{
+    height: 50vh;
+    object-fit: cover;
+}
+
+.productCardBtn{
+    /* padding: 0.5vh; */
+    margin-left: 10.8vw;
+    background-color: white;
+    color: black;
+    border: solid 1px;
+    font-size: 100%;
+    font-weight: 600;
+}
+
+
+
+
+.paralax2{
+    background-image: url(https://images.unsplash.com/photo-1533678863812-0079b1ab2e68?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1227&q=80);
+    width: 100%;
+    height: 100vh;
+    background-position: top 70px center;
+    background-repeat: no-repeat;
+    align-items: flex-start;
+    display: flex;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    background-attachment: fixed;
+    scroll-behavior: smooth;
+}
+
+
+
+
+.shopByCategory{
+    font-weight: 350;
+}
+
+
+
+
+
+.brandsRoundPicsContainer{
+    width: 97%;
+    margin-top: 17vh;
+    margin-bottom: 15vh;
+}
+
+.roundPics{
+    height: 40vh;
+    object-fit: cover;
+    transition: 0.3s ease-out;
+}
+
+.roundPics:hover{
+    transform: scale(1.02);
+}
+
+.theBrandsText{
+    transition: 0.3s ease-out;
+}
+
+.theBrandsText:hover{
+    transform: scale(1.02);
+}
+
+.theBrandsLink{
+    text-decoration: none;
+    color: black;
+}
+
+.theBrandsLink:hover{
+    color: black;
+}
+
+.dailySales{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+
+
+.genderImgContainer{
+    margin-top: 8vh;
+}
+
+.genderImg{
+    height: 50vh;
+    object-fit: cover;
+}
+
+
+
+
+#comingSoonContainer{
+    margin-top: 10vh;
+    margin-bottom: 8vh;
+    background-image: url(https://images.unsplash.com/photo-1481277542470-605612bd2d61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1106&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 100vw;
+    position: relative;
+    transition: 0.3s ease-out;
+}
+
+#comingSoonContainer:hover{
+    transform: scale(1.02);
+}
+
+
+.comingSoonText{
+    position: absolute;
+    bottom: 7vh;
+    left: 23vw;
+    width: 41vw;
+    line-height: 4vh;
+    font-size: 150%;
+    font-weight: 600;
+}
+
+
+
+
+
+.mostSellsCardContainer{
+    padding: 0 !important;
+    margin-top: 10vh;
+    margin-bottom: 8vh;
+    background-image: url(https://images.unsplash.com/photo-1627999873012-951535135a52?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGRpb3J8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+    height: 80vh;
+    background-size: cover;
+}
+
+.mostSellsCardContainer:hover .fa-medal{
+    transform: scale(1.2);
+}
+
+
+.backdrop2{
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    padding-top: 17%;
+    padding-left: 10%;
+    padding-right: 10%;
+    /* background: transparent; */
+    transition: background-color .2s linear;
+}
+
+.mostSellsCardContainer:hover .backdrop2 {
+    background-color: rgba(8, 8, 8, .5);
+}
+
+.mostSellBodyBtn{
+    background-color: blue;
+    color: white;
+    padding: 0.5vh 1vw;
+    border-radius: 3px;
+    font-size: 110%;
+    font-weight: 500;
+    border: none;
+    transition: 0.2s;
+    margin-top: 3vh;
+    margin-left: 32vw;
+    transition: 0.3s ease-out;
+}
+
+.mostSellBodyBtn:hover{
+    background-color: rgb(4, 4, 207);
+}
+
+
+
+
+
+
+.assureTextContainer{
+    margin-bottom: 8vh;
+}
+
+.assureTextBorder{
+    border: none;
+}
+
+.assureTextContent{
+    font-size: 25px;
+}
+
+
+
+
+.footerContainer{
+    background-color: black;
+}
+
+.footerTopText{
+    padding-top: 5vh;
+    padding-bottom: 1vh;
+    font-weight: 700;
+    font-size: 230%;
+    color: rgb(185, 185, 250);
+}
+
+.linksContainer{
+    /* height: 60vh; */
+    margin-top: 2vh;
+    padding-bottom: 2vh;
+    /* background-color: rgb(0, 0, 53); */
+    display: flex;
+    align-items: center;
+}
+
+.footerCover{
+    width: 100%;
+    /* background-color: aqua; */
+    /* border: 4px solid red; */
+    padding-left: 15vw;
+    /* padding-top: 10vh; */
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 5vw;
+    grid-row-gap: 1vh; */
+}
+
+.footerLinkT{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(185, 185, 250);
+    list-style-type: none;
+    margin-bottom: 2vh;
+}
+
+.footerLink{
+    color: rgb(185, 185, 250);
+    list-style-type: none;
+    margin-bottom: 1vh;
+}
+
+.footerMainLinkers{
+    text-decoration: none;
+}
+
+.footerLink:hover{
+    color: white;
+}
+
+.socialIconsRow{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    width: 20%;
+    margin: auto;
+}
+
+.socialIcons{
+    font-size: 5vh;
+    transition: 0.2s ease;
+    color: rgb(185, 185, 250);
+}
+
+.socialIcons:hover{
+    transform: scale(1.03);
+    color: white;
+}
+
+.bottomText{
+    color: rgb(185, 185, 250);
+}
+
+
+
+
+
+@media screen and (max-width: 1298px){
+    .sidePicSize{
+        height: 61.1vh;
+    }
+    .sideCardBtn{
+        margin-left: 13.6vw;
+    }
+
+    .pageSideBtn{
+        width: 5vw;
+        height: 9vh;
+        padding: 2.7vh 1.6vw;
+        top: 65%;
+        left: 94%;
+    }
+
+    .productCardBtn{
+        margin-left: 9vw;
+        font-size: 100%;
+        font-weight: 600;
+    }
+
+    .roundPics{
+        height: 37vh;
+    }
+
+    .comingSoonText{
+        left: 20vw;
+        font-size: 135%;
+        font-weight: 600;
+    }
+}
+
+
+@media screen and (max-width: 1080px){
+    #navbarSupportedContent{
+        margin-left: 6.5vw;
+    }
+    .navSearch{
+        width: 9vw;
+        border-radius: 20px 0 0 20px;
+    }
+
+    .newProductContainer{
+        margin-top: 2vh;
+    }
+    .sidePicSize{
+        height: 61.3vh;
+    }
+    .sideCardBtn{
+        margin-left: 9.6vw;
+        font-size: 110%;
+        font-weight: 500;
+    }
+
+    .sleeveCard{
+        height: 60vh;
+        width: 30vw;
+    }
+    .sleeveBtn{
+        margin-left: 10.5vw;
+        font-size: 120%;
+        font-weight: 600;
+    }
+
+    .pageSideBtn{
+        width: 6vw;
+        height: 9.3vh;
+        padding: 2.8vh 1.9vw;
+        margin-top: 2vh;
+        top: 65%;
+        left: 93.2%;
+    }
+
+    .productRowImg{
+        height: 40vh;
+    }
+    .productCardBtn{
+        margin-left: 5.4vw;
+        font-size: 100%;
+        font-weight: 600;
+    }
+
+    .shopByCategory{
+        font-weight: 400;
+        font-size: 290%;
+    }
+    .brandsRoundPicsContainer{
+        width: 97%;
+        margin-top: 10vh;
+        margin-bottom: 15vh;
+    }
+    .roundPics{
+        height: 31vh;
+        width: 20.3vw;
+    }
+    .theBrandsText{
+        font-size: 200%;
+    }
+
+    .genderImg{
+        height: 45vh;
+    }
+
+    #comingSoonContainer{
+        margin-top: 8vh;
+        height: 70vh;
+        width: 100vw;
+    }
+    .comingSoonText{
+        position: absolute;
+        bottom: 3vh;
+        left: 17vw;
+        font-size: 110%;
+        font-weight: 600;
+    }
+
+    .comingSoonText{
+        left: 24vw;
+        font-size: 130%;
+        font-weight: 600;
+    }
+
+    .fillerImg2Text{
+        font-size: 160%;
+    }
+
+    .mostSellBodyBtn{
+        font-size: 110%;
+        font-weight: 500;
+        margin-top: 5vh;
+        margin-left: 31vw;
+    }
+
+    .assureTextContent{
+        font-size: 23px;
+    }
+
+    .socialIconsRow{
+        width: 30%;
+    }
+
+    .footerCover{
+        width: 100%;
+        padding-left: 13vw;
+    }
+}
+
+
+@media screen and (max-width: 960px){
+    .navSearchCover{
+        margin-left: 36vw;
+    }
+    .navSearch{
+        width: 10vw;
+    }
+
+    #fillerImg {
+        height: 62vh;
+    }
+    .sidePicSize{
+        height: 47.3vh;
+    }
+    .sideCardBtn{
+        margin-left: 6.6vw;
+        font-size: 110%;
+        font-weight: 500;
+    }
+
+    .sleeveCard{
+        height: 55vh;
+        width: 30vw;
+    }
+    .sleeveBtn{
+        margin-left: 9.5vw;
+        font-size: 120%;
+        font-weight: 600;
+    }
+
+    .backdrop{
+        padding-top: 25%;
+    }
+    .fillerImg2Text{
+        font-size: 150%;
+    }
+
+    .pageSideBtn{
+        width: 6.8vw;
+        height: 9vh;
+        padding: 2.6vh 2.2vw;
+        top: 65%;
+        left: 92%;
+    }
+
+    .productRowImg{
+        height: 30vh;
+    }
+    .productCardBtn{
+        margin-top: 2vh;
+        margin-left: 0;
+        font-size: 90%;
+        font-weight: 600;
+    }
+
+    .brandsRoundPicsContainer{
+        width: 97%;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+    }
+    .roundPics{
+        display: none;
+    }
+
+    .genderImg{
+        height: 45vh;
+    }
+
+    #comingSoonContainer{
+        margin-top: 8vh;
+        height: 55vh;
+        width: 100vw;
+    }
+    .comingSoonText{
+        position: absolute;
+        bottom: 3.5vh;
+        left: 17vw;
+        width: 40vw;
+        line-height: 4vh;
+        font-size: 110%;
+        font-weight: 600;
+    }
+
+    .backdrop2{
+        padding-top: 25%;
+    }
+    .mostSellBodyBtn{
+        padding: 0.5vh 1vw;
+        font-size: 110%;
+        font-weight: 500;
+        margin-top: 3vh;
+        margin-left: 29.5vw;
+    }
+
+    .footerCover{
+        width: 100%;
+        padding-left: 13vw;
+    }
+}
+
+
+@media screen and (max-width: 720px){
+    .navSearchCover{
+        margin-left: 33vw;
+    }
+    .navSearch{
+        width: 13vw;
+    }
+
+
+    .newArrivalText{
+        line-height: 1vh;
+    }
+
+
+    #fillerImg {
+        height: 50vh;
+        width: 70vw;
+    }
+    .sidePicCover{
+        height: 50vh;
+    }
+    .sidePicCover span{
+        font-size: 80%;
+        margin-bottom: 8vh;
+    }
+    .sidePicSize{
+        height: 40vh;
+    }
+    .productName{
+        line-height: 0px;
+        font-size: 110%;
+        font-weight: 700;
+    }
+    .sideCardBtn{
+        margin-left: 3.6vw;
+        margin-top: 0.5vh;
+        font-size: 90%;
+        padding: 0.5vh 1vh;
+    }
+
+    .sleeveCard{
+        height: 41vh;
+        width: 30vw;
+    }
+    .sleeveBtn{
+        margin-left: 7.5vw;
+        font-size: 95%;
+        padding: 0.5vh 1vh; 
+        font-weight: 600;
+    }
+
+
+    #fillerImg2Container{
+        height: 55vh;
+    }
+    .backdrop{
+        padding-top: 18%;
+    }
+    .fillerImg2Text{
+        font-size: 115%;
+    }
+    .fillerImg2Btn{
+        font-size: 95%;
+        font-weight: 500;
+        margin-top: 2vh;
+    }
+
+
+    .pageSideBtn{
+        width: 8.7vw;
+        height: 9vh;
+        padding: 2.6vh 2.7vw;
+        top: 65%;
+        left: 90%;
+    }
+
+
+    .productRowsContainer{
+        padding: 0;
+    }    
+    .productRowsTitle{
+        line-height: 4vh;
+        font-size: 170%;
+    }
+    .productCard span{
+        font-size: 80%; 
+    }
+    .productRowImg{
+        height: 25vh;
+    }
+    .newProductName{
+        line-height: 0px;
+        font-size: 110%;
+        font-weight: 700;
+    }
+    .productCardBtn{
+        font-size: 95%;
+        font-weight: 600;
+        margin-left: 0vw;
+        margin-top: 1vh;
+        padding: 0.5vh 1vh;
+    }
+
+
+    .brandsRoundPicsContainer{
+        width: 97%;
+        margin-top: 8vh;
+        margin-bottom: 8vh;
+    }
+
+
+    .genderImg{
+        height: 35vh;
+    }
+
+
+    #comingSoonContainer{
+        height: 41vh;
+        width: 100vw;
+    }
+    .comingSoonText{
+        bottom: 1vh;
+        /* left: 17vw; */
+        /* width: 38vw; */
+        line-height: 4vh;
+        font-size: 80%;
+        font-weight: 700;
+    }
+
+
+    .mostSellsCardContainer{
+        height: 70vh;
+    }
+    .backdrop2{
+        padding-top: 24%;
+    }
+    .mostSellBodyBtn{
+        padding: 0.5vh 1vw;
+        font-size: 95%;
+        font-weight: 500;
+        margin-left: 28vw;
+    }
+
+
+    .assureTextContent{
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+
+    .footerTopText{
+        padding-top: 3vh;
+        padding-bottom: 0.5vh;
+        font-weight: 700;
+        font-size: 170%;
+    }
+    
+    .linksContainer{
+        margin-top: 1vh;
+        padding-bottom: 0vh;
+    }
+
+    .footerLinkT{
+        font-size: 16px;
+        margin-bottom: 1vh;
+    }
+    
+    .footerLink{
+        font-size: 14px;
+    }
+    .socialIcons{
+        font-size: 3vh;
+    }
+    .footerCover{
+        padding-left: 8vw;
+    }
+    .socialIconsRow{
+        width: 28%;
+    }
+}
+
+
+@media screen and (max-width: 520px){
+    .navSearchCover{
+        margin-left: 29.5vw;
+    }
+    .navSearch{
+        width: 17vw;
+    }
+
+
+    .topcarousel .img{
+        width: 100vw;
+        height: 60vh;
+    }
+
+
+    #fillerImg {
+        height: 40vh;
+        width: 70vw;
+    }
+    .sidePicCover{
+        height: 40vh;
+    }
+    .sidePicCover span{
+        margin-bottom: 0vh;
+    }
+    .sidePicSize{
+        height: 27vh;
+    }
+    .productName{
+        line-height: 0px;
+        font-size: 100%;
+        font-weight: 700;
+    }
+    .sideCardBtn{
+        margin-left: 0vw;
+    }
+
+
+    .sleeveCard{
+        height: 30vh;
+        width: 30vw;
+    }
+    .sleeveBtn{
+        margin-left: 3.7vw;
+        font-size: 90%;
+        padding: 0.5vh 1vh; 
+        font-weight: 600;
+    }
+
+
+    #fillerImg2Container{
+        height: 45vh;
+    }
+    .backdrop{
+        padding-top: 22%;
+    }
+    .fillerImg2Text{
+        font-size: 82%;
+        font-weight: 500;
+        line-height: 2vh;
+    }
+    .fillerImg2Btn{
+        font-size: 80%;
+        font-weight: 500;
+        margin-top: 1vh;
+    }
+
+
+    .pageSideBtn{
+        width: 12vw;
+        height: 9vh;
+        padding: 2.6vh 3.7vw;
+        top: 65%;
+        left: 86%;
+    }
+
+
+    .productRowsContainer{
+        padding: 0 15vw;
+    }    
+    .productRowsTitle{
+        line-height: 4vh;
+        font-size: 150%;
+    }
+    .productCard{
+        margin-bottom: 8vh;
+    }
+    .productCard span{
+        font-size: 90%; 
+        margin-top: 3vh;
+    }
+    .productRowImg{
+        height: 50vh;
+    }
+    .newProductName{
+        font-size: 130%;
+        line-height: 1vh;
+    }
+    .productCardBtn{
+        font-size: 100%;
+        font-weight: 600;
+        margin-left: 27.4vw;
+        margin-top: 1vh;
+        padding: 0.5vh 1vh;
+    }
+
+
+    .shopByCategory{
+        font-weight: 500;
+        font-size: 180%;
+    }
+    .brandsRoundPicsContainer{
+        margin-top: 6vh;
+    }
+    .theBrandsText{
+        font-size: 130%;
+    }
+    .dailySales{
+        font-size: 70%;
+        font-weight: 700;
+    }
+
+
+    .genderImgTopText{
+        font-size: 140%;
+        font-weight: 700;
+        line-height: 1vh;
+    }
+    .genderImg{
+        height: 25vh;
+    }
+
+
+    #comingSoonContainer{
+        height: 40vh;
+        width: 100vw;
+    }
+    .comingSoonText{
+        bottom: 2vh;
+        left: 25vw;
+        /* width: 38vw; */
+        line-height: 4vh;
+        font-size: 61%;
+        font-weight: 700;
+    }
+
+
+    .mostSellsCardContainer{
+        height: 50vh;
+        margin-bottom: 6vh;
+    }
+    .backdrop2{
+        padding-top: 19%;
+    }
+    .fillerImg2Text{
+        line-height: 4vh;
+        font-size: 100%;
+    }
+    .mostSellBodyBtn{
+        padding: 0.5vh 1vw;
+        font-size: 90%;
+        font-weight: 500;
+        margin-left: 26vw;
+    }
+    
+
+
+    .assureTextContainer{
+        margin-bottom: 4vh;
+    }    
+    .assureTextContent{
+        font-size: 13px;
+        font-weight: 700;
+    }
+
+
+    .footerTopText{
+        padding-top: 2vh;
+        padding-bottom: 0.5vh;
+        font-weight: 700;
+        font-size: 150%;
+    }
+    
+    .linksContainer{
+        margin-top: 0.5vh;
+        padding-bottom: 0.5vh;
+    }
+
+    .footerLinkT{
+        font-size: 14px;
+        margin-bottom: 0.5vh;
+    }
+    
+    .footerLink{
+        font-size: 12px;
+    }
+    .socialIcons{
+        font-size: 3vh;
+    }
+    .footerCover{
+        padding-left: 5vw;
+    }
+    .socialIconsRow{
+        width: 38%;
+    }
+}
+
+
+@media screen and (max-width: 480px){
+    .navSearchCover{
+        margin-left: 28vw;
+    }
+    .navSearch{
+        width: 19vw;
+    }
+
+
+    .sleeveBtn{
+        margin-left: 2.5vw;
+        font-size: 90%;
+        padding: 0.5vh 1vh; 
+        font-weight: 600;
+    }
+
+
+    .pageSideBtn{
+        width: 13.4vw;
+        height: 9vh;
+        padding: 2.6vh 4.3vw;
+        top: 65%;
+        left: 86%;
+    }
+
+
+    .productCardBtn{
+        font-size: 100%;
+        font-weight: 600;
+        margin-left: 24.3vw;
+        margin-top: 1vh;
+        padding: 0.5vh 1vh;
+    }
+
+
+    #comingSoonContainer{
+        height: 35vh;
+        width: 100vw;
+    }
+    .comingSoonText{
+        bottom: 0vh;
+        left: 24vw;
+        /* width: 38vw; */
+        font-size: 57%;
+        font-weight: 700;
+    }
+
+
+    .footerCover{
+        padding-left: 4vw;
+    }
+    .socialIconsRow{
+        width: 40%;
+    }
+}
+
+
+@media screen and (max-width: 360px){
+    .navSearchCover{
+        margin-left: 23vw;
+    }
+    .navSearch{
+        width: 25vw;
+    }
+
+
+    .topcarousel .img{
+        width: 100vw;
+        height: 40vh;
+    }
+
+
+    #fillerImg {
+        height: 30vh;
+        width: 70vw;
+    }
+    .sidePicCover{
+        height: 30vh;
+    }
+    .sidePicCover span{
+        margin-bottom: 0vh;
+        font-size: 60%;
+    }
+    .sidePicSize{
+        height: 18vh;
+    }
+    .productName{
+        display: none;
+    }
+    
+    .productName{
+        line-height: 0px;
+        font-size: 90%;
+        font-weight: 700;
+    }
+    .sideCardBtn{
+        margin-left: 0vw;
+        margin-top: 0.5vh;
+        font-size: 60%;
+        padding: 0.5vh 1vh;
+    }
+
+
+    .sleeveCard{
+        height: 30vh;
+        width: 30vw;
+        margin-bottom: 6vh;
+    }
+    .sleeveBtn{
+        margin-left: 18vw;
+        font-size: 90%;
+        padding: 0.5vh 1vh; 
+        font-weight: 600;
+    }
+
+
+    #fillerImg2Container{
+        height: 40vh;
+    }
+    .backdrop{
+        padding-top: 10%;
+    }
+
+
+    .pageSideBtn{
+        width: 15vw;
+        height: 8vh;
+        padding: 2.2vh 4.2vw;
+        top: 65%;
+        left: 81%;
+    }
+
+
+    .productRowsContainer{
+        padding: 0 15vw;
+    }    
+    .productRowsTitle{
+        line-height: 2vh;
+        font-size: 150%;
+    }
+    .productCard{
+        margin-bottom: 3vh;
+    }
+    .productCard span{
+        font-size: 90%; 
+        margin-top: 3vh;
+    }
+    .productRowImg{
+        height: 35vh;
+    }
+    .newProductName{
+        font-size: 130%;
+        line-height: 1vh;
+    }
+    .productCardBtn{
+        font-size: 100%;
+        font-weight: 600;
+        margin-left: 9vw;
+        margin-top: 1vh;
+        padding: 0.5vh 1vh;
+    }
+
+
+    .shopByCategory{
+        font-weight: 500;
+        font-size: 170%;
+    }
+    .brandsRoundPicsContainer{
+        margin-top: 4vh;
+        margin-bottom: 5vh;
+    }
+    .theBrandsText{
+        font-size: 95%;
+        font-weight: 700;
+    }
+    .dailySales{
+        display: none;
+    }
+
+
+    .genderImgTopText{
+        font-size: 120%;
+        font-weight: 700;
+        line-height: 1vh;
+    }
+    .genderImg{
+        height: 18vh;
+    }
+
+
+    #comingSoonContainer{
+        height: 28vh;
+        width: 100vw;
+    }
+    .comingSoonText{
+        bottom: 0vh;
+        left: 25vw;
+        /* width: 38vw; */
+        line-height: 4vh;
+        font-size: 42%;
+        font-weight: 700;
+    }
+
+
+    .mostSellsCardContainer{
+        height: 45vh;
+        margin-bottom: 4vh;
+    }
+    .backdrop2{
+        padding-top: 20%;
+    }
+    .fillerImg2Text{
+        line-height: 4vh;
+        font-size: 100%;
+    }
+    .mostSellBodyBtn{
+        padding: 0.5vh 1vw;
+        font-size: 90%;
+        font-weight: 500;
+        margin-left: 18vw;
+        margin-top: 1vh;
+    }
+    
+
+
+    .assureTextContainer{
+        margin-bottom: 2vh;
+    }    
+    .assureTextContent{
+        font-size: 10px;
+        font-weight: 700;
+    }
+
+
+    .footerTopText{
+        padding-top: 1vh;
+        padding-bottom: 0vh;
+        font-weight: 700;
+        font-size: 120%;
+    }
+    
+    .linksContainer{
+        margin-top: 0.5vh;
+        padding-bottom: 0.5vh;
+    }
+
+    .footerLinkT{
+        font-size: 12px;
+        margin-bottom: 0.5vh;
+    }
+    
+    .footerLink{
+        font-size: 10px;
+        margin-bottom: 0.5vh;
+    }
+    .socialIcons{
+        font-size: 2vh;
+    }
+    .footerCover{
+        padding-left: 0;
+    }
+    .socialIconsRow{
+        width: 45%;
+    }
+}

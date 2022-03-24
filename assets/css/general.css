@@ -1,0 +1,13 @@
+@import url(./bootstrap.css);
+
+
+
+
+*{
+    scroll-behavior: smooth;
+}
+
+.basketIcon{
+    font-size: 30px;
+    color: black;
+}
