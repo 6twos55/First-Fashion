@@ -565,15 +565,31 @@ body{
 
 
 
-
+ /* MEDIA QUERIES */
 
 @media screen and (max-width: 1298px){
+    .siteLogo{
+        height: 6.5vh;
+        width: 3.5vw;
+        margin-left: 0.2vw;
+    }
+    
+
     .sidePicSize{
         height: 61.1vh;
     }
     .sideCardBtn{
-        margin-left: 13.6vw;
+        margin-left: 13.23vw;
     }
+
+
+    .sleeveCard{
+        height: 69vh;
+    }
+    .sleeveBtn{
+        margin-left: 12vw;
+    }    
+    
 
     .pageSideBtn{
         width: 5vw;
@@ -594,21 +610,107 @@ body{
     }
 
     .comingSoonText{
-        left: 20vw;
+        left: 25vw;
         font-size: 135%;
         font-weight: 600;
     }
+
+
+    .fillerImg2Text{
+        font-size: 160%;
+        line-height: 4vh;
+        color: white;
+    }
+}
+@media screen and (max-width: 1290px){
+    .sideCardBtn{
+        margin-left: 13vw;
+    }
+}
+@media screen and (max-width: 1279px){
+    .fillerImg2Text{
+        font-size: 150%;
+        line-height: 4vh;
+    }
+    .mostSellBodyBtn{
+        padding: 0.5vh 1vw;
+        font-size: 110%;
+        font-weight: 500;
+        margin-top: 3vh;
+        margin-left: 31vw;
+    }
+}
+@media screen and (max-width: 1275px){
+    .sideCardBtn{
+        margin-left: 12.5vw;
+    }
+}
+@media screen and (max-width: 1245px){
+    .sideCardBtn{
+        margin-left: 12vw;
+    }
+}
+@media screen and (max-width: 1216px){
+    .sideCardBtn{
+        margin-left: 11vw;
+    }
 }
 
+@media screen and (max-width: 1199px){
+    .productRowImg{
+        height: 40vh;
+        object-fit: cover;
+    }
+    .productCardBtn{
+        margin-left: 4vw;
+        font-size: 100%;
+        font-weight: 600;
+    }
+    .fillerImg2Text{
+        font-size: 120%;
+        line-height: 4vh;
+    }
+}
+@media screen and (max-width: 1178px){
+    .socialIcons{
+        font-size: 4vh;
+    }
+}
+@media screen and (max-width: 1161px){
+    .sideCardBtn{
+        margin-left: 10vw;
+    }
+
+    .sleeveCard{
+        height: 63vh;
+    }
+    .sleeveBtn{
+        margin-left: 11vw;
+    }
+}
+@media screen and (max-width: 1115px){
+    .comingSoonText{
+        left: 25vw;
+        font-size: 120%;
+        font-weight: 600;
+    }
+}
+@media screen and (max-width: 1111px){
+    .sideCardBtn{
+        margin-left: 9vw;
+    }
+}
 
 @media screen and (max-width: 1080px){
     #navbarSupportedContent{
         margin-left: 6.5vw;
     }
-    .navSearch{
-        width: 9vw;
-        border-radius: 20px 0 0 20px;
+    .siteLogo{
+        height: 5.5vh;
+        width: 3.5vw;
+        margin-left: 0.2vw;
     }
+
 
     .newProductContainer{
         margin-top: 2vh;
@@ -617,7 +719,7 @@ body{
         height: 61.3vh;
     }
     .sideCardBtn{
-        margin-left: 9.6vw;
+        margin-left: 8.5vw;
         font-size: 110%;
         font-weight: 500;
     }
@@ -677,28 +779,20 @@ body{
         width: 100vw;
     }
     .comingSoonText{
-        position: absolute;
-        bottom: 3vh;
-        left: 17vw;
+        left: 27vw;
         font-size: 110%;
         font-weight: 600;
     }
 
-    .comingSoonText{
-        left: 24vw;
-        font-size: 130%;
-        font-weight: 600;
-    }
-
     .fillerImg2Text{
-        font-size: 160%;
+        font-size: 130%;
     }
 
     .mostSellBodyBtn{
         font-size: 110%;
         font-weight: 500;
         margin-top: 5vh;
-        margin-left: 31vw;
+        margin-left: 29.5vw;
     }
 
     .assureTextContent{
@@ -706,7 +800,7 @@ body{
     }
 
     .socialIconsRow{
-        width: 30%;
+        width: 25%;
     }
 
     .footerCover{
@@ -714,15 +808,60 @@ body{
         padding-left: 13vw;
     }
 }
+@media screen and (max-width: 1044px){
+    .sideCardBtn{
+        margin-left: 7vw;
+    }
+}
+@media screen and (max-width: 1039px){
+    .fillerImg2Text{
+        font-size: 120%;
+    }
+}
+@media screen and (max-width: 1023px){
+    .pageSideBtn{
+        width: 6vw;
+        height: 8.8vh;
+        padding: 2.5vh 1.8vw;
+        margin-top: 2vh;
+        top: 65%;
+        left: 93.2%;
+    }
+}
 
+@media screen and (max-width: 991px){
+    .productRowImg{
+        height: 30vh;
+        object-fit: cover;
+    }
+    .productCardBtn{
+        margin-top: 2vh;
+        margin-left: 0vw;
+        font-size: 100%;
+        font-weight: 600;
+    }
 
+    .comingSoonText{
+        left: 20vw;
+        font-size: 90%;
+        font-weight: 600;
+    }
+}
+@media screen and (max-width: 985px){
+    .sideCardBtn{
+        margin-left: 6vw;
+    }
+}
 @media screen and (max-width: 960px){
     .navSearchCover{
         margin-left: 36vw;
     }
-    .navSearch{
-        width: 10vw;
+    .siteLogo{
+        height: 5.5vh;
+        width: 4vw;
+        margin-left: 0.2vw;
     }
+
 
     #fillerImg {
         height: 62vh;
@@ -731,7 +870,7 @@ body{
         height: 47.3vh;
     }
     .sideCardBtn{
-        margin-left: 6.6vw;
+        margin-left: 6vw;
         font-size: 110%;
         font-weight: 500;
     }
@@ -790,12 +929,8 @@ body{
         width: 100vw;
     }
     .comingSoonText{
-        position: absolute;
-        bottom: 3.5vh;
-        left: 17vw;
-        width: 40vw;
-        line-height: 4vh;
-        font-size: 110%;
+        left: 20vw;
+        font-size: 90%;
         font-weight: 600;
     }
 
@@ -815,14 +950,43 @@ body{
         padding-left: 13vw;
     }
 }
+@media screen and (max-width: 949px){
+    .sideCardBtn{
+        margin-left: 5vw;
+    }
+}
+@media screen and (max-width: 915px){
+    .sideCardBtn{
+        margin-left: 4vw;
+    }
+    .fillerImg2Text{
+        font-size: 110%;
+    }
+}
 
+@media screen and (max-width: 884px){
+    .sideCardBtn{
+        margin-left: 4vw;
+    }
+}
+@media screen and (max-width: 870px){
+    .sideCardBtn{
+        /* margin-top: 2vh; */
+        margin-left: 3.3vw;
+    }
+}
+@media screen and (max-width: 870px){
+    .sideCardBtn{
+        /* margin-top: 2vh; */
+        margin-left: 3.3vw;
+    }
+}
 
 @media screen and (max-width: 720px){
-    .navSearchCover{
-        margin-left: 33vw;
-    }
-    .navSearch{
-        width: 13vw;
+    .siteLogo{
+        height: 5.5vh;
+        width: 5vw;
+        margin-left: 0.2vw;
     }
 
 
@@ -1000,11 +1164,10 @@ body{
 
 
 @media screen and (max-width: 520px){
-    .navSearchCover{
-        margin-left: 29.5vw;
-    }
-    .navSearch{
-        width: 17vw;
+    .siteLogo{
+        height: 5.5vh;
+        width: 7vw;
+        margin-left: 0.2vw;
     }
 
 
@@ -1042,7 +1205,7 @@ body{
         width: 30vw;
     }
     .sleeveBtn{
-        margin-left: 3.7vw;
+        margin-left: 3vw;
         font-size: 90%;
         padding: 0.5vh 1vh; 
         font-weight: 600;
@@ -1208,16 +1371,15 @@ body{
 
 
 @media screen and (max-width: 480px){
-    .navSearchCover{
-        margin-left: 28vw;
-    }
-    .navSearch{
-        width: 19vw;
+    .siteLogo{
+        height: 6vh;
+        width: 8.5vw;
+        margin-left: 0.2vw;
     }
 
 
     .sleeveBtn{
-        margin-left: 2.5vw;
+        margin-left: 2vw;
         font-size: 90%;
         padding: 0.5vh 1vh; 
         font-weight: 600;
@@ -1265,11 +1427,10 @@ body{
 
 
 @media screen and (max-width: 360px){
-    .navSearchCover{
-        margin-left: 23vw;
-    }
-    .navSearch{
-        width: 25vw;
+    .siteLogo{
+        height: 6vh;
+        width: 11vw;
+        margin-left: 0.2vw;
     }
 
 
@@ -1311,9 +1472,8 @@ body{
 
 
     .sleeveCard{
-        height: 30vh;
+        height: 42vh;
         width: 30vw;
-        margin-bottom: 6vh;
     }
     .sleeveBtn{
         margin-left: 18vw;
