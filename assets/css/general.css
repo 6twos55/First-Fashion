@@ -7,6 +7,10 @@
     scroll-behavior: smooth;
 }
 
+body{
+    transition: all 0.5s ease;
+}
+
 .basketIcon{
     font-size: 30px;
     color: black;

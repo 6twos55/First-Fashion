@@ -1162,6 +1162,15 @@ body{
     }
 }
 
+@media screen and (max-width: 657px){
+    .pageSideBtn{
+        width: 10vw;
+        height: 9vh;
+        padding: 2.6vh 3.3vw;
+        top: 65%;
+        left: 86%;
+    }
+}
 
 @media screen and (max-width: 520px){
     .siteLogo{
